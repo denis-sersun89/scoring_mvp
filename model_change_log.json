@@ -1,0 +1,3009 @@
+[
+    {
+        "timestamp": "2026-02-20T04:59:07.233996",
+        "old_model": {
+            "model": {
+                "intercept": -2.32,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.32,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-20T05:00:31.270841",
+        "old_model": {
+            "model": {
+                "intercept": -2.32,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -1.32,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-20T05:25:44.637314",
+        "old_model": {
+            "model": {
+                "intercept": -1.32,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.33,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-22T15:12:51.505995",
+        "old_model": {
+            "model": {
+                "intercept": -2.33,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.33,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-22T16:43:41.549352",
+        "old_model": {
+            "model": {
+                "intercept": -2.33,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.34,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-22T17:15:44.200304",
+        "old_model": {
+            "model": {
+                "intercept": -2.34,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.34,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.121
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-22T20:33:03.930587",
+        "old_model": {
+            "model": {
+                "intercept": -2.34,
+                "calibration_intercept": 0.05,
+                "calibration_slope": 1.121
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-23T09:56:58.857248",
+        "old_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.6,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 0.9
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.1
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.6,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 0.9
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.11
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-23T13:02:37.790504",
+        "old_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.6,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 0.9
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.11
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.6,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 0.9
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.11
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.05,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-23T13:03:22.380829",
+        "old_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.6,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 0.9
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.11
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.05,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.6,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 0.9
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.11
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-23T13:12:09.971751",
+        "old_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.16,
+                "calibration_slope": 0.93
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.6,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 0.9
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.11
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        },
+        "new_model": {
+            "model": {
+                "intercept": -2.12,
+                "calibration_intercept": 0.1,
+                "calibration_slope": 1.12
+            },
+            "variables": {
+                "debt_ratio": {
+                    "coefficient": -0.85,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.2,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.2,
+                            "max": 0.5,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 0.7
+                        }
+                    ]
+                },
+                "cash_ratio": {
+                    "coefficient": -1.43,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0.1,
+                            "woe": -0.5
+                        },
+                        {
+                            "min": 0.1,
+                            "max": 0.3,
+                            "woe": 0.1
+                        },
+                        {
+                            "min": 0.3,
+                            "max": 0.5,
+                            "woe": 0.7
+                        },
+                        {
+                            "min": 0.5,
+                            "max": null,
+                            "woe": 1.2
+                        }
+                    ]
+                },
+                "industry": {
+                    "coefficient": 0.71,
+                    "bins": [
+                        {
+                            "values": [
+                                "Retail"
+                            ],
+                            "woe": -0.4
+                        },
+                        {
+                            "values": [
+                                "Wholesale"
+                            ],
+                            "woe": -0.2
+                        },
+                        {
+                            "values": [
+                                "Construction",
+                                "Transport"
+                            ],
+                            "woe": 0.5
+                        },
+                        {
+                            "values": [
+                                "Energy",
+                                "Manufacturing"
+                            ],
+                            "woe": 1.0
+                        },
+                        {
+                            "values": [
+                                "IT",
+                                "Pharmaceuticals",
+                                "Agriculture"
+                            ],
+                            "woe": -0.11
+                        }
+                    ]
+                },
+                "max_dpd_2y": {
+                    "coefficient": 1.2,
+                    "bins": [
+                        {
+                            "min": null,
+                            "max": 0,
+                            "woe": -0.8
+                        },
+                        {
+                            "min": 0,
+                            "max": 30,
+                            "woe": 0.2
+                        },
+                        {
+                            "min": 30,
+                            "max": null,
+                            "woe": 1.5
+                        }
+                    ]
+                }
+            },
+            "master_scale": [
+                {
+                    "min_pd": 0.0,
+                    "max_pd": 0.005,
+                    "rating": 1
+                },
+                {
+                    "min_pd": 0.005,
+                    "max_pd": 0.01,
+                    "rating": 2
+                },
+                {
+                    "min_pd": 0.01,
+                    "max_pd": 0.02,
+                    "rating": 3
+                },
+                {
+                    "min_pd": 0.02,
+                    "max_pd": 0.03,
+                    "rating": 4
+                },
+                {
+                    "min_pd": 0.03,
+                    "max_pd": 0.05,
+                    "rating": 5
+                },
+                {
+                    "min_pd": 0.05,
+                    "max_pd": 0.08,
+                    "rating": 6
+                },
+                {
+                    "min_pd": 0.08,
+                    "max_pd": 0.12,
+                    "rating": 7
+                },
+                {
+                    "min_pd": 0.12,
+                    "max_pd": 0.2,
+                    "rating": 8
+                },
+                {
+                    "min_pd": 0.2,
+                    "max_pd": 1.0,
+                    "rating": 9
+                }
+            ]
+        }
+    }
+]

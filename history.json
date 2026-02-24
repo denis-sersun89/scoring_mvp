@@ -1,0 +1,708 @@
+[
+    {
+        "calculation_uuid": "e79c72e1-572a-4d1a-b28f-a66ddafee3fc",
+        "calculation_no": 1,
+        "timestamp": "2026-02-22T15:11:27.804768+00:00",
+        "client_id": "1234567891234",
+        "client_name": "srl 999",
+        "financial_period": "2024-12-31 00:00:00",
+        "input_data": {
+            "debt_ratio": 0.3,
+            "cash_ratio": 0.2,
+            "max_dpd_2y": 8.0
+        },
+        "model_output": {
+            "logit_score": -2.3279999999999994,
+            "calibrated_logit": -2.5573599999999996,
+            "pd": 0.07193358736017909,
+            "rating": 6,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.3,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.2,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "max_dpd_2y": {
+                    "value": 8.0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 6,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T15:12:18.283761+00:00"
+    },
+    {
+        "calculation_uuid": "31cacc6d-7a12-4010-a650-8c0c53baceb1",
+        "calculation_no": 2,
+        "timestamp": "2026-02-22T15:11:59.153034+00:00",
+        "client_id": "1003",
+        "client_name": "Gamma Trade",
+        "financial_period": null,
+        "input_data": {
+            "debt_ratio": 0.15,
+            "cash_ratio": 0.4,
+            "max_dpd_2y": 10
+        },
+        "model_output": {
+            "logit_score": -2.6759999999999993,
+            "calibrated_logit": -2.9471199999999995,
+            "pd": 0.04987280504214374,
+            "rating": 5,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.15,
+                    "woe": -0.5,
+                    "coefficient": -0.85,
+                    "contribution": 0.425
+                },
+                "cash_ratio": {
+                    "value": 0.4,
+                    "woe": 0.7,
+                    "coefficient": -1.43,
+                    "contribution": -1.001
+                },
+                "max_dpd_2y": {
+                    "value": 10,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 5,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T15:12:21.755981+00:00"
+    },
+    {
+        "calculation_uuid": "564e5a28-4d5d-40c4-9d30-aa3bc3784671",
+        "calculation_no": 3,
+        "timestamp": "2026-02-22T15:12:06.498796+00:00",
+        "client_id": "1001",
+        "client_name": "ABC SRL",
+        "financial_period": null,
+        "input_data": {
+            "debt_ratio": 0.35,
+            "cash_ratio": 0.18,
+            "max_dpd_2y": 0
+        },
+        "model_output": {
+            "logit_score": -2.3279999999999994,
+            "calibrated_logit": -2.5573599999999996,
+            "pd": 0.07193358736017909,
+            "rating": 6,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.35,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.18,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "max_dpd_2y": {
+                    "value": 0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 6,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T15:12:26.295373+00:00"
+    },
+    {
+        "calculation_uuid": "246fc3c2-3862-4954-a1cb-62ab84ec47a8",
+        "calculation_no": 4,
+        "timestamp": "2026-02-22T15:14:55.947222+00:00",
+        "client_id": "1003",
+        "client_name": "Gamma Trade",
+        "financial_period": "2024-09-30",
+        "input_data": {
+            "debt_ratio": 0.15,
+            "cash_ratio": 0.4,
+            "max_dpd_2y": 10
+        },
+        "model_output": {
+            "logit_score": -2.6759999999999993,
+            "calibrated_logit": -2.9471199999999995,
+            "pd": 0.04987280504214374,
+            "rating": 5,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.15,
+                    "woe": -0.5,
+                    "coefficient": -0.85,
+                    "contribution": 0.425
+                },
+                "cash_ratio": {
+                    "value": 0.4,
+                    "woe": 0.7,
+                    "coefficient": -1.43,
+                    "contribution": -1.001
+                },
+                "max_dpd_2y": {
+                    "value": 10,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": true,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 7,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T15:15:12.918013+00:00"
+    },
+    {
+        "calculation_uuid": "32eb6085-fcc8-4d65-af9f-465890ac8816",
+        "calculation_no": 5,
+        "timestamp": "2026-02-22T15:15:08.332342+00:00",
+        "client_id": "1234567891234",
+        "client_name": "srl 999",
+        "financial_period": "2024-12-31 00:00:00",
+        "input_data": {
+            "debt_ratio": 0.3,
+            "cash_ratio": 0.2,
+            "max_dpd_2y": 8.0
+        },
+        "model_output": {
+            "logit_score": -2.3279999999999994,
+            "calibrated_logit": -2.5573599999999996,
+            "pd": 0.07193358736017909,
+            "rating": 6,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.3,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.2,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "max_dpd_2y": {
+                    "value": 8.0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": true,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 7,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T15:15:16.123845+00:00"
+    },
+    {
+        "calculation_uuid": "d34a5c95-7cbb-49c4-b48a-04f3aab22296",
+        "calculation_no": 6,
+        "timestamp": "2026-02-22T16:55:48.613376+00:00",
+        "client_id": "1001",
+        "client_name": "ABC SRL",
+        "financial_period": "2024-12-31",
+        "input_data": {
+            "debt_ratio": 0.35,
+            "cash_ratio": 0.18,
+            "max_dpd_2y": 0
+        },
+        "model_output": {
+            "logit_score": -2.3279999999999994,
+            "calibrated_logit": -2.5596879999999995,
+            "pd": 0.07177832686063329,
+            "rating": 6,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.35,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.18,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "max_dpd_2y": {
+                    "value": 0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 6,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T18:18:35.760455+00:00"
+    },
+    {
+        "calculation_uuid": "a6154e66-4ec3-4a7e-8a89-9540aac3f6ea",
+        "calculation_no": 7,
+        "timestamp": "2026-02-22T16:56:09.881205+00:00",
+        "client_id": "1234567891234",
+        "client_name": "srl 999",
+        "financial_period": "2024-12-31 00:00:00",
+        "input_data": {
+            "debt_ratio": 0.3,
+            "cash_ratio": 0.2,
+            "max_dpd_2y": 8.0
+        },
+        "model_output": {
+            "logit_score": -2.3279999999999994,
+            "calibrated_logit": -2.5596879999999995,
+            "pd": 0.07177832686063329,
+            "rating": 6,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.3,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.2,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "max_dpd_2y": {
+                    "value": 8.0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": true
+        },
+        "validator_comment": "",
+        "final_rating": 9,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T18:18:47.551949+00:00"
+    },
+    {
+        "calculation_uuid": "64eacd7a-8a13-47f3-810e-c6142c1ff8b5",
+        "calculation_no": 8,
+        "timestamp": "2026-02-22T18:33:52.568983+00:00",
+        "client_id": "1234567891234",
+        "client_name": "srl 999",
+        "financial_period": "2024-12-31 00:00:00",
+        "input_data": {
+            "debt_ratio": 0.3,
+            "cash_ratio": 0.2,
+            "max_dpd_2y": 8.0
+        },
+        "model_output": {
+            "logit_score": -2.1079999999999997,
+            "calibrated_logit": -1.8004399999999998,
+            "pd": 0.14179751243071986,
+            "rating": 8,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.3,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.2,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "max_dpd_2y": {
+                    "value": 8.0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "ok",
+        "final_rating": 8,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-22T18:34:11.350238+00:00"
+    },
+    {
+        "calculation_uuid": "8209f3bf-f09d-473a-a71f-7c3f41fdd3a9",
+        "calculation_no": 9,
+        "timestamp": "2026-02-23T07:15:58.249709+00:00",
+        "client_id": "1002",
+        "client_name": "Beta Construct",
+        "industry": "Construction",
+        "financial_period": "2024-12-31",
+        "input_data": {
+            "debt_ratio": 0.65,
+            "cash_ratio": 0.05,
+            "max_dpd_2y": 45,
+            "industry": "Construction"
+        },
+        "model_output": {
+            "logit_score": 0.09999999999999987,
+            "calibrated_logit": 0.2529999999999999,
+            "pd": 0.5629147648722987,
+            "rating": 9,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.65,
+                    "woe": 0.7,
+                    "coefficient": -0.85,
+                    "contribution": -0.595
+                },
+                "cash_ratio": {
+                    "value": 0.05,
+                    "woe": -0.5,
+                    "coefficient": -1.43,
+                    "contribution": 0.715
+                },
+                "industry": {
+                    "value": "Construction",
+                    "woe": 0.5,
+                    "coefficient": 0.6,
+                    "contribution": 0.3
+                },
+                "max_dpd_2y": {
+                    "value": 45,
+                    "woe": 1.5,
+                    "coefficient": 1.2,
+                    "contribution": 1.7999999999999998
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": true,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 9,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-23T07:16:05.043698+00:00"
+    },
+    {
+        "calculation_uuid": "41affe76-e34f-4c7d-a549-3be797a08f91",
+        "calculation_no": 10,
+        "timestamp": "2026-02-23T07:26:21.843207+00:00",
+        "client_id": "1234567891234",
+        "client_name": "srl 999",
+        "industry": "Manufacturing",
+        "financial_period": "2024-12-31 00:00:00",
+        "input_data": {
+            "debt_ratio": 0.3,
+            "cash_ratio": 0.2,
+            "max_dpd_2y": 8.0,
+            "industry": "Manufacturing"
+        },
+        "model_output": {
+            "logit_score": -1.5679999999999998,
+            "calibrated_logit": -1.29824,
+            "pd": 0.21446137108563193,
+            "rating": 9,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.3,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.2,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "industry": {
+                    "value": "Manufacturing",
+                    "woe": 0.9,
+                    "coefficient": 0.6,
+                    "contribution": 0.54
+                },
+                "max_dpd_2y": {
+                    "value": 8.0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 9,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-23T07:26:27.087569+00:00"
+    },
+    {
+        "calculation_uuid": "42919fc8-8c12-40b7-bc08-04f33b656470",
+        "calculation_no": 11,
+        "timestamp": "2026-02-23T07:46:53.747083+00:00",
+        "client_id": "1007",
+        "client_name": "Eta Manufacturing",
+        "industry": "Manufacturing",
+        "financial_period": "2024-12-31",
+        "input_data": {
+            "debt_ratio": 0.29,
+            "cash_ratio": 0.3,
+            "max_dpd_2y": 0,
+            "industry": "Manufacturing"
+        },
+        "model_output": {
+            "logit_score": -2.426,
+            "calibrated_logit": -2.09618,
+            "pd": 0.10946865976377844,
+            "rating": 7,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.29,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.3,
+                    "woe": 0.7,
+                    "coefficient": -1.43,
+                    "contribution": -1.001
+                },
+                "industry": {
+                    "value": "Manufacturing",
+                    "woe": 0.9,
+                    "coefficient": 0.6,
+                    "contribution": 0.54
+                },
+                "max_dpd_2y": {
+                    "value": 0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 7,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-23T07:47:05.986646+00:00"
+    },
+    {
+        "calculation_uuid": "f698ff4b-a1a2-4a7a-9e0e-42126ebae9e3",
+        "calculation_no": 12,
+        "timestamp": "2026-02-23T10:45:43.421762+00:00",
+        "client_id": "1005",
+        "client_name": "Epsilon Agro",
+        "industry": "Agriculture",
+        "financial_period": "2023-12-31",
+        "input_data": {
+            "debt_ratio": 0.48,
+            "cash_ratio": 0.22,
+            "max_dpd_2y": 0,
+            "industry": "Agriculture"
+        },
+        "model_output": {
+            "logit_score": -2.1739999999999995,
+            "calibrated_logit": -1.8618199999999996,
+            "pd": 0.1344910571389325,
+            "rating": 8,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.48,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.22,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "industry": {
+                    "value": "Agriculture",
+                    "woe": -0.11,
+                    "coefficient": 0.6,
+                    "contribution": -0.066
+                },
+                "max_dpd_2y": {
+                    "value": 0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 8,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-23T10:45:54.441047+00:00"
+    },
+    {
+        "calculation_uuid": "1744c443-ba14-4ae8-9428-ef47f71220c9",
+        "calculation_no": 13,
+        "timestamp": "2026-02-23T11:03:57.694106+00:00",
+        "client_id": "1234567891234",
+        "client_name": "srl 999",
+        "industry": "Manufacturing",
+        "financial_period": "2024-12-31 00:00:00",
+        "input_data": {
+            "debt_ratio": 0.3,
+            "cash_ratio": 0.2,
+            "max_dpd_2y": 8.0,
+            "industry": "Manufacturing"
+        },
+        "model_output": {
+            "logit_score": -1.5679999999999998,
+            "calibrated_logit": -1.29824,
+            "pd": 0.21446137108563193,
+            "rating": 9,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.3,
+                    "woe": 0.1,
+                    "coefficient": -0.85,
+                    "contribution": -0.085
+                },
+                "cash_ratio": {
+                    "value": 0.2,
+                    "woe": 0.1,
+                    "coefficient": -1.43,
+                    "contribution": -0.143
+                },
+                "industry": {
+                    "value": "Manufacturing",
+                    "woe": 0.9,
+                    "coefficient": 0.6,
+                    "contribution": 0.54
+                },
+                "max_dpd_2y": {
+                    "value": 8.0,
+                    "woe": 0.2,
+                    "coefficient": 1.2,
+                    "contribution": 0.24
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 9,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-23T11:04:07.873561+00:00"
+    },
+    {
+        "calculation_uuid": "60df177b-bcf3-43dd-9430-ea8793dc8dbc",
+        "calculation_no": 14,
+        "timestamp": "2026-02-23T11:08:31.197875+00:00",
+        "client_id": "1006",
+        "client_name": "Zeta Retail",
+        "industry": "Retail",
+        "financial_period": "2024-03-31",
+        "input_data": {
+            "debt_ratio": 0.72,
+            "cash_ratio": 0.04,
+            "max_dpd_2y": 60,
+            "industry": "Retail"
+        },
+        "model_output": {
+            "logit_score": -0.4400000000000004,
+            "calibrated_logit": -0.2492000000000004,
+            "pd": 0.43802041616478016,
+            "rating": 9,
+            "contributions": {
+                "debt_ratio": {
+                    "value": 0.72,
+                    "woe": 0.7,
+                    "coefficient": -0.85,
+                    "contribution": -0.595
+                },
+                "cash_ratio": {
+                    "value": 0.04,
+                    "woe": -0.5,
+                    "coefficient": -1.43,
+                    "contribution": 0.715
+                },
+                "industry": {
+                    "value": "Retail",
+                    "woe": -0.4,
+                    "coefficient": 0.6,
+                    "contribution": -0.24
+                },
+                "max_dpd_2y": {
+                    "value": 60,
+                    "woe": 1.5,
+                    "coefficient": 1.2,
+                    "contribution": 1.7999999999999998
+                }
+            }
+        },
+        "hard_rules": {
+            "startup": false,
+            "negative_info": false
+        },
+        "validator_comment": "",
+        "final_rating": 9,
+        "status": "VALIDATED",
+        "validated_timestamp": "2026-02-23T11:08:50.145492+00:00"
+    }
+]

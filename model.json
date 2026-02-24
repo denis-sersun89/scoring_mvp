@@ -1,0 +1,160 @@
+{
+    "model": {
+        "intercept": -2.12,
+        "calibration_intercept": 0.1,
+        "calibration_slope": 1.12
+    },
+    "variables": {
+        "debt_ratio": {
+            "coefficient": -0.85,
+            "bins": [
+                {
+                    "min": null,
+                    "max": 0.2,
+                    "woe": -0.5
+                },
+                {
+                    "min": 0.2,
+                    "max": 0.5,
+                    "woe": 0.1
+                },
+                {
+                    "min": 0.5,
+                    "max": null,
+                    "woe": 0.7
+                }
+            ]
+        },
+        "cash_ratio": {
+            "coefficient": -1.43,
+            "bins": [
+                {
+                    "min": null,
+                    "max": 0.1,
+                    "woe": -0.5
+                },
+                {
+                    "min": 0.1,
+                    "max": 0.3,
+                    "woe": 0.1
+                },
+                {
+                    "min": 0.3,
+                    "max": 0.5,
+                    "woe": 0.7
+                },
+                {
+                    "min": 0.5,
+                    "max": null,
+                    "woe": 1.2
+                }
+            ]
+        },
+        "industry": {
+            "coefficient": 0.71,
+            "bins": [
+                {
+                    "values": [
+                        "Retail"
+                    ],
+                    "woe": -0.4
+                },
+                {
+                    "values": [
+                        "Wholesale"
+                    ],
+                    "woe": -0.2
+                },
+                {
+                    "values": [
+                        "Construction",
+                        "Transport"
+                    ],
+                    "woe": 0.5
+                },
+                {
+                    "values": [
+                        "Energy",
+                        "Manufacturing"
+                    ],
+                    "woe": 1.0
+                },
+                {
+                    "values": [
+                        "IT",
+                        "Pharmaceuticals",
+                        "Agriculture"
+                    ],
+                    "woe": -0.11
+                }
+            ]
+        },
+        "max_dpd_2y": {
+            "coefficient": 1.2,
+            "bins": [
+                {
+                    "min": null,
+                    "max": 0,
+                    "woe": -0.8
+                },
+                {
+                    "min": 0,
+                    "max": 30,
+                    "woe": 0.2
+                },
+                {
+                    "min": 30,
+                    "max": null,
+                    "woe": 1.5
+                }
+            ]
+        }
+    },
+    "master_scale": [
+        {
+            "min_pd": 0.0,
+            "max_pd": 0.005,
+            "rating": 1
+        },
+        {
+            "min_pd": 0.005,
+            "max_pd": 0.01,
+            "rating": 2
+        },
+        {
+            "min_pd": 0.01,
+            "max_pd": 0.02,
+            "rating": 3
+        },
+        {
+            "min_pd": 0.02,
+            "max_pd": 0.03,
+            "rating": 4
+        },
+        {
+            "min_pd": 0.03,
+            "max_pd": 0.05,
+            "rating": 5
+        },
+        {
+            "min_pd": 0.05,
+            "max_pd": 0.08,
+            "rating": 6
+        },
+        {
+            "min_pd": 0.08,
+            "max_pd": 0.12,
+            "rating": 7
+        },
+        {
+            "min_pd": 0.12,
+            "max_pd": 0.2,
+            "rating": 8
+        },
+        {
+            "min_pd": 0.2,
+            "max_pd": 1.0,
+            "rating": 9
+        }
+    ]
+}

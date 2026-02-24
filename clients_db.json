@@ -1,0 +1,98 @@
+{
+  "1001": {
+    "company_name": "ABC SRL",
+    "financial_period": "2024-12-31",
+    "industry": "Retail",
+    "debt_ratio": 0.35,
+    "cash_ratio": 0.18,
+    "max_dpd_2y": 0
+  },
+  "1002": {
+    "company_name": "Beta Construct",
+    "financial_period": "2024-12-31",
+    "industry": "Construction",
+    "debt_ratio": 0.65,
+    "cash_ratio": 0.05,
+    "max_dpd_2y": 45
+  },
+  "1003": {
+    "company_name": "Gamma Trade",
+    "financial_period": "2024-09-30",
+    "industry": "Wholesale",
+    "debt_ratio": 0.15,
+    "cash_ratio": 0.40,
+    "max_dpd_2y": 10
+  },
+  "1004": {
+    "company_name": "Delta Logistics",
+    "financial_period": "2024-06-30",
+    "industry": "Transport",
+    "debt_ratio": 0.55,
+    "cash_ratio": 0.12,
+    "max_dpd_2y": 5
+  },
+  "1005": {
+    "company_name": "Epsilon Agro",
+    "financial_period": "2023-12-31",
+    "industry": "Agriculture",
+    "debt_ratio": 0.48,
+    "cash_ratio": 0.22,
+    "max_dpd_2y": 0
+  },
+  "1006": {
+    "company_name": "Zeta Retail",
+    "financial_period": "2024-03-31",
+    "industry": "Retail",
+    "debt_ratio": 0.72,
+    "cash_ratio": 0.04,
+    "max_dpd_2y": 60
+  },
+  "1007": {
+    "company_name": "Eta Manufacturing",
+    "financial_period": "2024-12-31",
+    "industry": "Manufacturing",
+    "debt_ratio": 0.29,
+    "cash_ratio": 0.30,
+    "max_dpd_2y": 0
+  },
+  "1008": {
+    "company_name": "Theta Energy",
+    "financial_period": "2024-09-30",
+    "industry": "Energy",
+    "debt_ratio": 0.81,
+    "cash_ratio": 0.08,
+    "max_dpd_2y": 90
+  },
+  "1009": {
+    "company_name": "Iota Pharma",
+    "financial_period": "2024-06-30",
+    "industry": "Pharmaceuticals",
+    "debt_ratio": 0.22,
+    "cash_ratio": 0.35,
+    "max_dpd_2y": 3
+  },
+  "1010": {
+    "company_name": "Kappa IT Solutions",
+    "financial_period": "2024-12-31",
+    "industry": "IT",
+    "debt_ratio": 0.18,
+    "cash_ratio": 0.50,
+    "max_dpd_2y": 0
+  },
+  "1011": {
+    "company_name": "Lambda Transport",
+    "financial_period": "2023-12-31",
+    "industry": "Transport",
+    "debt_ratio": 0.60,
+    "cash_ratio": 0.15,
+    "max_dpd_2y": 20
+  },
+  "1012": {
+    "company_name": "Mu Construction Group",
+    "financial_period": "2024-03-31",
+    "industry": "Construction",
+    "debt_ratio": 0.75,
+    "cash_ratio": 0.09,
+    "max_dpd_2y": 120
+  }
+}
